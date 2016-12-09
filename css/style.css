@@ -1,0 +1,215 @@
+body
+{
+  overflow-x:hidden;
+}
+#logo
+{
+  position:relative;
+  background-image:url('../imgs/payments-banner-graphic.png');
+  background-size:100% 550px;
+  height:550px;
+}
+.navbar
+{
+  z-index:2;
+  background-color:transparent;
+  border:none;
+}
+.navbar a
+{
+  color:white !important;
+}
+.navbar button span
+{
+  background-color:white !important;
+}
+.navbar button:hover span,
+.navbar button:focus span
+{
+  background-color:grey !important;
+}
+.navbar-header a span
+{
+  display:inline-block;
+  border:1px solid white;
+  padding:5px 8px 5px 8px;
+}
+#title
+{
+  position:absolute;
+  top:0;
+  left:0;
+  height:550px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  color:white;
+}
+#title small
+{
+  color:white;
+}
+#title button
+{
+  margin-top:20px;
+  padding:10px 40px 10px 40px;
+  color:#7373AF;
+}
+#access
+{
+  padding:70px 0 70px 0;
+  border-bottom:1px solid lightgrey;
+}
+#access div div:nth-child(-n+2)
+{
+  border-right:1px solid lightgrey;
+}
+@media (max-width: 750px)
+{
+  #payInfo h2
+  {
+    font-size:1.5em;
+  }
+}
+@media (min-width: 750px)
+{
+  #payInfo h2
+  {
+    font-size:1.8em;
+  }
+}
+#payInfo
+{
+  padding:50px 0 50px 0;
+  background-color:#F5F9FB;
+}
+#payInfo h2
+{
+  position:relative;
+  display:inline-block;
+  padding-left:80px;
+  text-align:left;
+}
+#payInfo h2 span
+{
+  position:absolute;
+  top:-5px;
+  left:0;
+  font-size:2.4em;
+  color:#866CC0;
+}
+#creditInfo
+{
+  background-color:#4D525D;
+  color:white;
+  padding:25px 0 25px 0;
+  font-size:1.2em;
+}
+@media (max-width: 750px)
+{
+  #demoLine .row:nth-child(odd) div:nth-child(even) div,
+  #demoLine .row:nth-child(even) div:nth-child(odd) div
+  {
+    height:auto;
+  }
+  #demoLine .row:nth-child(odd):nth-child(-n+3) div:nth-child(even) div,
+  #demoLine .row:nth-child(even):nth-child(-n+3) div:nth-child(odd) div
+  {
+    border-bottom:1px solid lightgrey;
+  }
+  #demoLine p
+  {
+    padding-right:50px;
+  }
+}
+@media (min-width: 750px)
+{
+  #demoLine .row:nth-child(odd) div:nth-child(even) div,
+  #demoLine .row:nth-child(even) div:nth-child(odd) div
+  {
+    height:470px;
+  }
+}
+#demoLine .row
+{
+  overflow:hidden;
+}
+#demoLine .row img
+{
+  border-radius:20px 20px 0 0;
+}
+#demoLine .row:nth-child(odd) div:nth-child(odd)
+{
+  background-color:#63D3F3;
+  padding:80px 70px 0 70px;
+  height:470px;
+}
+#demoLine .row:nth-child(even) div:nth-child(even)
+{
+  background-color:#866CC0;
+  padding:80px 70px 0 70px;
+  border:1px solid grey;
+  height:470px;
+}
+#demoLine .row:nth-child(odd) div:nth-child(even) div,
+#demoLine .row:nth-child(even) div:nth-child(odd) div
+{
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  color:grey;
+  padding:0;
+  width:300px;
+  margin:auto;
+  font-size:1.1em;
+}
+h3
+{
+  margin-bottom:20px;
+}
+#acountInfo
+{
+  font-size:1.2em;
+  padding:50px 0 50px 0;
+}
+#acountInfo button
+{
+  margin-top:20px;
+}
+#copyright
+{
+  background-color:#292A2D;
+  padding:50px 10% 50px 10%;
+}
+#copyright ul
+{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+#copyright li
+{
+  margin-bottom:15px;
+}
+#copyright div,
+#copyright a
+{
+  color:grey;
+  text-decoration:none;
+}
+#copyright img
+{
+  float:right;
+}
+#copyright p
+{
+  margin-top:50px;
+  padding-right:15%;
+}
+h4
+{
+  color:lightgrey;
+  margin-bottom:25px;
+}
